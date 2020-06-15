@@ -108,7 +108,7 @@
                         tickedPackagesTotal = tickedPackagesTotal + Number(tickedPackage.mon_amount)
                     }
 
-                    // Set total amount of ticked packages to 'amount_shown'
+                    // Set total amount of ticked packages to 'amount'
                     planData.amount = tickedPackagesTotal;
                 } else {
                     planData.amount = Number(plan.mon_amount);
